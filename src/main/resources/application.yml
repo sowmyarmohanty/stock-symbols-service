@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: stock-symbols-service
+nse:
+  stock-symbols:
+    url: https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv
