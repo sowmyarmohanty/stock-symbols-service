@@ -10,5 +10,5 @@ CREATE TABLE IF NOT EXISTS stock_symbol (
     face_value BIGINT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    UNIQUE KEY unique_symbol (symbol)
+    CONSTRAINT unique_symbol UNIQUE (symbol)
 );
